@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url('world.png');
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    
+    color: rgb(18, 19, 17);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.menu a{
+    text-decoration: none;
+    color: #6c7103;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.menu a:hover{
+    border: 1px solid indianred;
+    background: transparent;
+}
+.register a{
+    text-decoration:none;
+    color: #371ba8;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+button{
+    color: #fff;
+    background-color: indianred;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.register a:hover{
+    border: 1px solid indianred;
+    background: transparent;
+}
+.h-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+.h-text span{
+    letter-spacing: 5px;
+}
+.h-text h1{
+    font-size: 3.5em;
+}
+.h-text a{
+    text-decoration: none;
+    background: indianred;
+    padding: 10px 20px;
+    color:#fff;
+    letter-spacing: 5px;
+    transition: 0.4em;
+
+}
+.h-text a:hover{
+    border: 1px solid indianred;
+    background: transparent;
+}

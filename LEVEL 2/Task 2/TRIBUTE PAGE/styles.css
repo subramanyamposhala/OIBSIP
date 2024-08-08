@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    margin-top: 50px;
+}
+
+.header h1 {
+    font-size: 3em;
+}
+
+.header p {
+    font-size: 1.5em;
+    color: #aaa;
+}
+
+.play-button {
+    font-size: 2em;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.quote-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.quote-section img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.quote-section blockquote {
+    font-size: 1.5em;
+    color: #fff;
+    max-width: 600px;
+    margin: 0;
+}
+
+.biography {
+    margin: 50px 0;
+}
+
+.biography h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.biography p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.footer {
+    margin-top: 50px;
+    font-size: 1em;
+    color: #aaa;
+}
